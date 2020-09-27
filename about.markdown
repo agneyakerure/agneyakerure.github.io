@@ -4,15 +4,11 @@ title: About
 permalink: /about/
 ---
 
-This is the base Jekyll theme. You can find out more info about customizing your Jekyll theme, as well as basic Jekyll usage documentation at [jekyllrb.com](https://jekyllrb.com/)
+Hi! I am Agneya Kerure. I am 26 years old and I live in San Diego. I work at PlayStation San Diego Studios as an Audio Software Engineer on [MLB The Show](https://news.theshownation.com/).
 
-You can find the source code for Minima at GitHub:
-[jekyll][jekyll-organization] /
-[minima](https://github.com/jekyll/minima)
+I love software engineering and signal processing. This is my blog about software engineering and audio signal processing.
 
-You can find the source code for Jekyll at GitHub:
-[jekyll][jekyll-organization] /
-[jekyll](https://github.com/jekyll/jekyll)
+I also like to play the guitar, hike and surf.
 
-
-[jekyll-organization]: https://github.com/jekyll
+Here is a cool photo of me:
+![Agneya Kerure](/assets/images/photo.jpg)
