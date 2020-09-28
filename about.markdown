@@ -12,3 +12,9 @@ I also like to play the guitar, hike and surf.
 
 Here is a cool photo of me:
 ![Agneya Kerure](/assets/images/photo.jpg)
+
+
+Note to self - if you forget how Jekyll works:
+1. Bundle exec jekyll serve --livereload will host the website on a local server
+2. ctrl + c will stop the server
+3. just create a new post using sublime text and add to git using git add . commit and push
