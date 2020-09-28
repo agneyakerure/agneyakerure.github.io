@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "My Template post"
-date: 2020-05-14 11:16:01 -0400
+date: 2020-05-12 11:16:01 -0400
 category: Template
 description: This is a sample description of this post
 ---

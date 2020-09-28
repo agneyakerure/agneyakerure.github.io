@@ -1,0 +1,48 @@
+---
+layout: default
+---
+
+<header class="post-header">
+  <h1 class="post-title">Game Audio, DSP and Programming</h1>
+  <!-- <h2 style="color: grey;">Game Audio • DSP • Experience</h2> -->
+</header>
+
+<div class="home">
+  <div class="clearfix">
+    <!-- <h1 class="page-heading">What This Is</h1>
+
+    <p>
+      I want this to be a reord of my learnings - so that someone who is getting
+      started on the journey of audio programming may find this useful.
+    </p> -->
+  </div>
+
+  {{ content }} {%- if site.posts.size > 0 -%}
+  <h2 class="post-list-heading">
+    {{ page.list_title | default: "Latest Posts" }}
+  </h2>
+  <ul class="post-list">
+    {%- for post in site.posts limit:3 -%}
+    <li>
+      {%- assign date_format = site.minima.date_format | default: "%b %-d, %Y"
+      -%}
+      <span class="post-meta">{{ post.date | date: date_format }}</span>
+      <h3>
+        <a class="post-link" href="{{ post.url | relative_url }}">
+          {{ post.title | escape }}
+        </a>
+      </h3>
+      {%- if site.show_excerpts -%} {{ post.excerpt }} {%- endif -%}
+    </li>
+    {%- endfor -%}
+  </ul>
+  {%- endif -%}
+
+  <p>
+    <em
+      >This is my personal website, blog and portfolio. The views expressed on
+      this website/blog are mine alone and do not necessarily reflect the views
+      of any other individual or organization.</em
+    >
+  </p>
+</div>
